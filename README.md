@@ -30,6 +30,8 @@ One example command line will look like a following:
 
 4. To run unittests, type in the following command:
 
+    <pre><code>
     $ python3 most_active_cookie_test.py
+    </code></pre>
 
 
