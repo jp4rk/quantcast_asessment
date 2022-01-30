@@ -88,24 +88,21 @@ if __name__ == "__main__":
 
 
 """
-Notes: I would like to make some clarifications for the code written above.
-First of all, I used string slicing to obtain the dates (since we technically
-don't need to consider the time). Obviously, there are many other ways to do
-it, but I thought this is the most simplistic way to do it, since we know
-that a given input length and format doesn't change. I also assumed that the
-given inputs will be valid. In other words, I assumed that the tester will
-correctly input the dates and the csv file names. Another thing I would like
-to note is that I could have been logging to a file (by creating a new log)
-rather than a console, but for the sake of simplicity, I decided to be
-doing the latter by directly outputting logging messages on console. Lastly,
-I have used my "test log" as the given cookie_log.csv input to perform
-unit-testing. 
+Notes: considered 2 cases - if no such matching file exists and
+if there is no active cookie for a given day
+
+Used string slicing to obtain the dates - obviously there are many
+ways to do it, but thought it's the most simplistic as the character
+counts would not change. Also assumed that the given inputs will be
+valid (in other words) assumed that no typo is made when writing a
+command line. If so, I would simply just add some exception handlers
+to print out the warning:
+
+Also, I understand that we could also logging to a file rather than a
+console, but for the sake of conciseness, I decided to be doing
+the latter.
 """
 
-
-
-# WHAT TO DO: write unit test cases
-# Revise comments
 
 
             
