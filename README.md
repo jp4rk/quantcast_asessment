@@ -1,4 +1,4 @@
-# quantcast_asessment
+# Quantcast_asessment
 Initial coding assessment for QuantCast company. 
 
 
@@ -11,12 +11,15 @@ the instruction given:
 
 2. Open terminal, and type in the following command:
 
+    <pre><code>
     $ sudo cp most_active_cookie.py most_active_cookie
     $ chmod +x most_active_cookie
+    </code></pre>
 
+    
 3. Now, type in any command you would like. Note that the format of the
 command should look like a following:
-
+    
     $ ./most_active_cookie "name_of_csv.csv" -d "date"
 
 One example command line will look like a following:
