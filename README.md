@@ -22,7 +22,7 @@ command should look like a following:
 
     <pre><code>
     $ ./most_active_cookie "name_of_csv.csv" -d "date"
-    </code><pre>
+    </code></pre>
 
 One example command line will look like a following:
 
